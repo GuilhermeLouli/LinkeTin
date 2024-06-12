@@ -2,7 +2,7 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs'
 import { NavigationContainer } from '@react-navigation/native'
 import { createStackNavigator } from '@react-navigation/stack'
 
-import LoginScreen from './src/screens/LoginScreen'
+import LoginScreen from './src/screens/LoginScreen.js'
 import RegistryScreen from './src/screens/RegistryScreen'
 
 import { Entypo } from '@expo/vector-icons';
