@@ -1,18 +1,14 @@
 import React from 'react'
-import { Pressable, StyleSheet, Text, View } from 'react-native'
+import { StyleSheet, Text, View } from 'react-native'
 
-export default function RegistryScreen({ navigation }) {
+export default function ChatScreen({ navigation }) {
 
   return (
     <View style={styles.container}>
 
       <Text style={styles.content} >
-        Bananasso
+        Chat
       </Text>
-
-      <Pressable style={styles.button} onPress={() => navigation.goBack()} >
-        <Text style={styles.buttonText}>Voltar</Text>
-      </Pressable>
 
     </View>
   )
@@ -26,7 +22,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   content: {
-    color: 'purple'
+    color: '#a0b911'
   },
   button: {
     marginTop: '10px',
