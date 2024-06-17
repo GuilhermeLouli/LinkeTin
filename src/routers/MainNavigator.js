@@ -8,7 +8,7 @@ import { FontAwesome5 } from '@expo/vector-icons';
 
 import HomeScreen from '../screens/HomeScreens/HomeScreen';
 import ProfileScreen from '../screens/HomeScreens/ProfileScreen';
-import ChatScreen from '../screens/HomeScreens/ChatScreen';
+import ChatsScreen from '../screens/HomeScreens/ChatsScreen';
 import MatchesScreen from '../screens/HomeScreens/MatchesScreen';
 
 const Tab = createBottomTabNavigator()
@@ -18,7 +18,7 @@ export default MainNavigator = () => (
   <Tab.Navigator screenOptions={screenOptions}>
     <Stack.Screen name="Home" component={HomeScreen} />
     <Stack.Screen name="Matches" component={MatchesScreen} />
-    <Stack.Screen name="Chat" component={ChatScreen} />
+    <Stack.Screen name="Chat" component={ChatsScreen} />
     <Stack.Screen name="Profile" component={ProfileScreen} />
   </Tab.Navigator>
 );
@@ -37,9 +37,9 @@ const screenOptions = ({ route }) => ({
     }
   },
 
-  tabBarActiveTintColor: 'green', //globalStyles.colors.primary
+  tabBarActiveTintColor: '#5FBBEE', //globalStyles.colors.primary
 
-  tabBarInactiveTintColor: 'red', //globalStyles.colors.secondary
+  tabBarInactiveTintColor: '#7D848F', //globalStyles.colors.secondary
 
   tabBarStyle: { paddingVertical: 8, backgroundColor: 'white' },
 
