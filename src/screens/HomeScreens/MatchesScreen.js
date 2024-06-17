@@ -1,18 +1,14 @@
 import React from 'react'
-import { Pressable, StyleSheet, Text, View } from 'react-native'
+import { StyleSheet, Text, View } from 'react-native'
 
-export default function RegistryScreen({ navigation }) {
+export default function MatchesScreen({ navigation }) {
 
   return (
     <View style={styles.container}>
 
       <Text style={styles.content} >
-        Bananasso
+        You have no matches
       </Text>
-
-      <Pressable style={styles.button} onPress={() => navigation.goBack()} >
-        <Text style={styles.buttonText}>Voltar</Text>
-      </Pressable>
 
     </View>
   )
@@ -26,7 +22,10 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   content: {
-    color: 'purple'
+    padding: '10px',
+    backgroundColor: '#A7AFBB',
+    borderRadius: '10px',
+    color: 'white'
   },
   button: {
     marginTop: '10px',

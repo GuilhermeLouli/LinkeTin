@@ -2,7 +2,7 @@ import React from 'react';
 import { View, Text, Pressable, StyleSheet } from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';
 
-const LoginScreen = () => {
+export function LoginOrRegisterScreen({ navigation }) {
   return (
     <LinearGradient
       colors={['#a1ffce', '#faffd1']}
@@ -18,10 +18,10 @@ const LoginScreen = () => {
         By tapping Create Account or Sign in, you agree to our Terms. Learn how
         we process your data in our Privacy Policy and Cookies Policy.
       </Text>
-      <Pressable style={styles.button}>
+      <Pressable style={styles.button} onPress={() => navigation.navigate('Login')}>
         <Text style={styles.buttonText}>SIGN IN</Text>
       </Pressable>
-      <Pressable style={styles.button}>
+      <Pressable style={styles.button} onPress={() => navigation.navigate('Registration')}>
         <Text style={styles.buttonText}>REGISTER</Text>
       </Pressable>
       <Text style={styles.linkText}>Trouble Signing In?</Text>
@@ -80,5 +80,3 @@ const styles = StyleSheet.create({
     marginVertical: 5,
   },
 });
-
-export default LoginScreen;
