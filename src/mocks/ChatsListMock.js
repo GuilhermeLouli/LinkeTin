@@ -2,7 +2,7 @@ export default ChatsListMock = [
   {
     id: 0,
     pictures: ["https://images.pexels.com/photos/5393594/pexels-photo-5393594.jpeg?auto=compress&cs=tinysrgb&w=1200"],
-    backgroundPicture: "https://images.pexels.com/photos/7106845/pexels-photo-7106845.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load",
+    backgroundPicture: "https://htmlcolorcodes.com/assets/images/colors/blue-gray-color-solid-background-1920x1080.png",
     hasNewStory: false,
     time: '10:11 pm',
     unreadMessages: 0,
@@ -12,7 +12,7 @@ export default ChatsListMock = [
   {
     id: 1,
     pictures: ["https://images.pexels.com/photos/5378700/pexels-photo-5378700.jpeg?auto=compress&cs=tinysrgb&w=1200"],
-    backgroundPicture: "https://images.pexels.com/photos/7106845/pexels-photo-7106845.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load",
+    backgroundPicture: "https://htmlcolorcodes.com/assets/images/colors/blue-gray-color-solid-background-1920x1080.png",
     hasNewStory: false,
     time: '10:11 pm',
     unreadMessages: 0,
@@ -23,7 +23,7 @@ export default ChatsListMock = [
   {
     id: 2,
     pictures: ['https://images.pexels.com/photos/3796217/pexels-photo-3796217.jpeg?auto=compress&cs=tinysrgb&w=1200'],
-    backgroundPicture: "https://images.pexels.com/photos/7106845/pexels-photo-7106845.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load",
+    backgroundPicture: "https://htmlcolorcodes.com/assets/images/colors/blue-gray-color-solid-background-1920x1080.png",
     hasNewStory: false,
     time: '06:54 pm',
     unreadMessages: 0,
@@ -43,7 +43,7 @@ export default ChatsListMock = [
   {
     id: 4,
     pictures: ['https://images.pexels.com/photos/3796217/pexels-photo-3796217.jpeg?auto=compress&cs=tinysrgb&w=1200'],
-    backgroundPicture: "https://images.pexels.com/photos/7106845/pexels-photo-7106845.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load",
+    backgroundPicture: "https://htmlcolorcodes.com/assets/images/colors/blue-gray-color-solid-background-1920x1080.png",
     hasNewStory: false,
     time: '10:11 am',
     unreadMessages: 4,
@@ -54,7 +54,7 @@ export default ChatsListMock = [
   {
     id: 5,
     pictures: ['https://images.pexels.com/photos/3796217/pexels-photo-3796217.jpeg?auto=compress&cs=tinysrgb&w=1200'],
-    backgroundPicture: "https://images.pexels.com/photos/7106845/pexels-photo-7106845.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load",
+    backgroundPicture: "https://htmlcolorcodes.com/assets/images/colors/blue-gray-color-solid-background-1920x1080.png",
     hasNewStory: false,
     time: '05:11 am',
     unreadMessages: 0,
@@ -64,7 +64,7 @@ export default ChatsListMock = [
   {
     id: 6,
     pictures: ['https://images.pexels.com/photos/3796217/pexels-photo-3796217.jpeg?auto=compress&cs=tinysrgb&w=1200'],
-    backgroundPicture: "https://images.pexels.com/photos/7106845/pexels-photo-7106845.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load",
+    backgroundPicture: "https://htmlcolorcodes.com/assets/images/colors/blue-gray-color-solid-background-1920x1080.png",
     hasNewStory: false,
     time: '03:20 am',
     unreadMessages: 0,
@@ -74,7 +74,7 @@ export default ChatsListMock = [
   {
     id: 7,
     pictures: ['https://images.pexels.com/photos/5876695/pexels-photo-5876695.jpeg?auto=compress&cs=tinysrgb&w=1200'],
-    backgroundPicture: "https://images.pexels.com/photos/7106845/pexels-photo-7106845.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load",
+    backgroundPicture: "https://htmlcolorcodes.com/assets/images/colors/blue-gray-color-solid-background-1920x1080.png",
     hasNewStory: false,
     time: '11:11 pm',
     unreadMessages: 16,
@@ -85,7 +85,7 @@ export default ChatsListMock = [
   {
     id: 8,
     pictures: ['https://images.pexels.com/photos/5615665/pexels-photo-5615665.jpeg?auto=compress&cs=tinysrgb&w=1200'],
-    backgroundPicture: "https://images.pexels.com/photos/7106845/pexels-photo-7106845.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load",
+    backgroundPicture: "https://htmlcolorcodes.com/assets/images/colors/blue-gray-color-solid-background-1920x1080.png",
     hasNewStory: false,
     time: '11:11 pm',
     unreadMessages: 16,
@@ -96,7 +96,7 @@ export default ChatsListMock = [
   {
     id: 9,
     pictures: ['https://images.pexels.com/photos/3796217/pexels-photo-3796217.jpeg?auto=compress&cs=tinysrgb&w=1200'],
-    backgroundPicture: "https://images.pexels.com/photos/7106845/pexels-photo-7106845.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load",
+    backgroundPicture: "https://htmlcolorcodes.com/assets/images/colors/blue-gray-color-solid-background-1920x1080.png",
     hasNewStory: false,
     time: '11:11 pm',
     unreadMessages: 16,
@@ -107,7 +107,7 @@ export default ChatsListMock = [
   {
     id: 10,
     pictures: ['https://images.pexels.com/photos/3796217/pexels-photo-3796217.jpeg?auto=compress&cs=tinysrgb&w=1200'],
-    backgroundPicture: "https://images.pexels.com/photos/7106845/pexels-photo-7106845.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load",
+    backgroundPicture: "https://htmlcolorcodes.com/assets/images/colors/blue-gray-color-solid-background-1920x1080.png",
     hasNewStory: false,
     time: '11:11 pm',
     unreadMessages: 0,

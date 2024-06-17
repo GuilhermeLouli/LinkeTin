@@ -10,15 +10,23 @@ import HomeScreen from '../screens/HomeScreens/HomeScreen';
 import ProfileScreen from '../screens/HomeScreens/ProfileScreen';
 import ChatsScreen from '../screens/HomeScreens/ChatsScreen';
 import MatchesScreen from '../screens/HomeScreens/MatchesScreen';
+import MessagesScreen from '../screens/HomeScreens/MessagesScreen';
 
 const Tab = createBottomTabNavigator()
 const Stack = createStackNavigator()
+
+const ChatStack = () => (
+  <Stack.Navigator screenOptions={{ headerShown: false }}>
+    <Stack.Screen name="Chat" component={ChatsScreen} />
+    <Stack.Screen name="Messages" component={MessagesScreen} />
+  </Stack.Navigator>
+);
 
 export default MainNavigator = () => (
   <Tab.Navigator screenOptions={screenOptions}>
     <Stack.Screen name="Home" component={HomeScreen} />
     <Stack.Screen name="Matches" component={MatchesScreen} />
-    <Stack.Screen name="Chat" component={ChatsScreen} />
+    <Stack.Screen name="Chat" component={ChatStack} />
     <Stack.Screen name="Profile" component={ProfileScreen} />
   </Tab.Navigator>
 );
