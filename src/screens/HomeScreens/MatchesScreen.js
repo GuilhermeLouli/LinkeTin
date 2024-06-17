@@ -7,7 +7,7 @@ export default function MatchesScreen({ navigation }) {
     <View style={styles.container}>
 
       <Text style={styles.content} >
-        Matches
+        You have no matches
       </Text>
 
     </View>
@@ -22,7 +22,10 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   content: {
-    color: '#0ea7ee'
+    padding: '10px',
+    backgroundColor: '#A7AFBB',
+    borderRadius: '10px',
+    color: 'white'
   },
   button: {
     marginTop: '10px',
