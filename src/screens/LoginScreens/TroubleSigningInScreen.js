@@ -1,3 +1,5 @@
+import { View } from "react-native";
+
 export function TroubleSigningInScreen() {
-  return (<></>)
+  return (<View></View>)
 }

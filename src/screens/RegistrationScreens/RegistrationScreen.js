@@ -32,7 +32,7 @@ const styles = StyleSheet.create({
     marginTop: '10px',
     width: '80px',
     height: '40px',
-    borderRadius: '5px',
+    borderRadius: 5,
     backgroundColor: 'red',
     alignItems: 'center',
     justifyContent: 'center',
