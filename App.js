@@ -1,7 +1,7 @@
 
 import { useState } from 'react';
 import { NavigationContainer } from '@react-navigation/native';
-import LoginNavigator from './src/routers/LoginNavigator'
+// import LoginNavigator from './src/routers/LoginNavigator'
 import MainNavigator from './src/routers/MainNavigator'
 
 export default function App() {
@@ -14,7 +14,7 @@ export default function App() {
         {
           loggedIn
             ? <MainNavigator />
-            : <LoginNavigator />
+            : <MainNavigator />
         }
       </NavigationContainer>
     </>

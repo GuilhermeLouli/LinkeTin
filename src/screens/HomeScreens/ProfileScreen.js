@@ -71,7 +71,7 @@ const styles = StyleSheet.create({
     height: '200px',
     justifyContent: 'center',
     alignItems: 'center',
-    borderRadius: '300px',
+    borderRadius: 300,
     backgroundColor: '#E5E5E5',
   },
   profileNegativeContainer: {
@@ -79,13 +79,13 @@ const styles = StyleSheet.create({
     height: '190px',
     justifyContent: 'center',
     alignItems: 'center',
-    borderRadius: '300px',
+    borderRadius: 300,
     backgroundColor: 'white',
   },
   profileImage: {
     width: '180px',
     height: '180px',
-    borderRadius: '300px',
+    borderRadius: 300,
     overflow: 'hidden'
   },
   name: {
@@ -97,7 +97,7 @@ const styles = StyleSheet.create({
     position: 'absolute',
     width: '250%',
     height: '250%',
-    borderRadius: '999px',
+    borderRadius: 999,
     bottom: 100,
     backgroundColor: 'white'
   },
@@ -114,7 +114,7 @@ const styles = StyleSheet.create({
     height: '50px',
     justifyContent: 'center',
     alignItems: 'center',
-    borderRadius: '50px',
+    borderRadius: 50,
     backgroundColor: 'white',
     shadowColor: '#000',
     shadowOffset: { width: 1, height: 1 },
@@ -128,7 +128,7 @@ const styles = StyleSheet.create({
     height: '70px',
     justifyContent: 'center',
     alignItems: 'center',
-    borderRadius: '70px',
+    borderRadius: 70,
     backgroundColor: 'white',
     shadowColor: '#000',
     shadowOffset: { width: 1, height: 1 },

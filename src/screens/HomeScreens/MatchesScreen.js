@@ -24,14 +24,14 @@ const styles = StyleSheet.create({
   content: {
     padding: '10px',
     backgroundColor: '#A7AFBB',
-    borderRadius: '10px',
+    borderRadius: 10,
     color: 'white'
   },
   button: {
     marginTop: '10px',
     width: '80px',
     height: '40px',
-    borderRadius: '5px',
+    borderRadius: 10,
     backgroundColor: 'red',
     alignItems: 'center',
     justifyContent: 'center',

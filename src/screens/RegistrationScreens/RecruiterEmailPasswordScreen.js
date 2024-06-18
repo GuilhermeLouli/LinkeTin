@@ -1,3 +1,5 @@
+import { View } from "react-native";
+
 export function RecruiterEmailPasswordScreen() {
-  return (<></>)
+  return (<View></View>)
 }
